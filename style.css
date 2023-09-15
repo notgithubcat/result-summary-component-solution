@@ -14,6 +14,10 @@ html {
   font-family: "Hanken Grotesk", sans-serif;
 }
 
+.attribution {
+  text-align: center;
+}
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -243,7 +247,7 @@ html {
 @media only screen and (max-width: 600px) {
   .wrapper {
     padding: 40px;
-    margin: 20px;
+    height: fit-content;
   }
 
   .inner-wrapper {
@@ -251,10 +255,11 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    max-width: 300px;
   }
   .box-right {
     width: 100%;
+    text-align: center;
   }
 
   .box-left {
