@@ -55,12 +55,12 @@ html {
   width: 50%;
   color: hsl(0, 0%, 100%);
   gap: 2rem;
+  border-radius: 2rem;
 }
 
 .box-left .first-cont span {
   color: hsl(241, 100%, 89%);
   font-weight: 700;
-  overflow: hidden;
 }
 
 .box-left .mid-cont {
