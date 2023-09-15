@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Libre+Baskerville&display=swap");
+
+body {
+  background-color: hsl(221, 100%, 96%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inner-wrapper {
+  display: flex;
+}
+
+.box-left {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  padding: 30px 40px 40px;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 270px;
+  color: hsl(0, 0%, 100%);
+  gap: 2rem;
+  position: relative;
+  right: -40px;
+}
+
+.box-left .first-cont span {
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.box-left .mid-cont {
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-left .mid-cont span {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.box-left .mid-cont p {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: hsl(241, 100%, 89%);
+}
+
+.box-left .last-cont span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.box-left .last-cont p {
+  font-size: 0.8rem;
+  color: hsl(241, 100%, 89%);
+}
+
+.box-right {
+  width: 300px;
+  padding: 30px 20px 20px 60px;
+  background-color: white;
+  box-shadow: rgba(205, 213, 255, 0.8) 0px 50px 100px -10px;
+  border-radius: 1.5rem;
+  color: #9f9aa1;
+  font-weight: 700;
+}
+
+.box-right p {
+  font-weight: 800;
+  color: #a39ea1;
+}
+
+.box-right .first-cont span {
+  color: #303b59;
+
+  font-weight: 800;
+}
+
+.box-right .mid-cont {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.box-right .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  font-size: 0.9rem;
+}
+
+.reaction {
+  background-color: #fff6f5;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+.reaction .status {
+  color: #f55;
+  font-weight: 800;
+}
+
+.reaction .percentage span {
+  font-weight: 800;
+  color: #3e3e48;
+}
+
+.memory {
+  background-color: #fffbf2;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+.memory .status {
+  color: #ffb21e;
+  font-weight: 700;
+}
+
+.memory .percentage span {
+  font-weight: 800;
+  color: #3e3e48;
+}
+
+.verbal {
+  background-color: #f2fafa;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+.verbal .status {
+  color: #00bb8f;
+  font-weight: 700;
+}
+
+.verbal .percentage span {
+  font-weight: 800;
+  color: #3e3e48;
+}
+
+.visual {
+  background-color: #f3f3fd;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+.visual .status {
+  color: #1125d6;
+  font-weight: 700;
+}
+
+.visual .percentage span {
+  font-weight: 800;
+  color: #3e3e48;
+}
+
+.box-right .status {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #303b59;
+  padding: 10px;
+  border-radius: 500px;
+  outline: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.btn a:link {
+  text-decoration: none;
+}
+
+.btn a:visited {
+  text-decoration: none;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: #006eff;
+  transition: background-color 0.6s ease-in-out;
+}
+
+.btn a:active {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    padding: 40px;
+    margin: 20px;
+  }
+
+  .inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-right {
+    padding: 70px 40px 40px;
+    width: 270px;
+    position: relative;
+    top: -40px;
+  }
+
+  .box-left {
+    right: 0;
+    z-index: 9999;
+  }
+}
