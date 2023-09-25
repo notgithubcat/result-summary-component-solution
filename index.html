@@ -20,85 +20,72 @@
   </head>
 
   <body>
-    <div class="wrapper">
-      <div class="inner-wrapper">
-        <div class="box-left">
-          <div class="first-cont">
-            <span>Your Result</span>
-          </div>
+    <main>
+      <div class="wrapper">
+        <div class="inner-wrapper">
+          <div class="resultBox">
+            <h1 class="grayText">Your Result</h1>
 
-          <div class="mid-cont">
-            <span>76</span>
-            <p>of 100</p>
-          </div>
+            <div class="resultBox__flexgroup">
+              <p class="percentValue">76</p>
+              <span>of 100</span>
+            </div>
 
-          <div class="last-cont">
-            <span>Great</span>
-            <p>
-              You scored higher than 65% of the people who have taken these
-              tests.
-            </p>
+            <div class="details">
+              <h2>Great</h2>
+              <p class="grayText">
+                You scored higher than 65% of the people who have taken these
+                tests.
+              </p>
+            </div>
+          </div>
+          <div class="summaryBox">
+            <h2>Summary</h2>
+
+            <div class="summaryBox__flexgroup red">
+              <div class="flexx">
+                <img src="./assets/images/icon-reaction.svg" alt="" />
+                <p class="redtxt">Reaction</p>
+              </div>
+              <p>80&nbsp;<span class="grayText">/&nbsp;100</span></p>
+            </div>
+
+            <div class="summaryBox__flexgroup yellow">
+              <div class="flexx">
+                <img src="./assets/images/icon-memory.svg" alt="" />
+                <p class="yellowtxt">Memory</p>
+              </div>
+              <p>92&nbsp;<span class="grayText">/&nbsp;100</span></p>
+            </div>
+
+            <div class="summaryBox__flexgroup green">
+              <div class="flexx">
+                <img src="./assets/images/icon-verbal.svg" alt="" />
+                <p class="greentxt">Verbal</p>
+              </div>
+              <p>61&nbsp;<span class="grayText">/&nbsp;100</span></p>
+            </div>
+
+            <div class="summaryBox__flexgroup blue">
+              <div class="flexx">
+                <img src="./assets/images/icon-visual.svg" alt="" />
+                <p class="bluetxt">Visual</p>
+              </div>
+              <p>92&nbsp;<span class="grayText">/&nbsp;100</span></p>
+            </div>
+
+            <button>Continue</button>
           </div>
         </div>
 
-        <div class="box-right">
-          <div class="first-cont">
-            <span>Summary</span>
-          </div>
-
-          <div class="mid-cont">
-            <div class="item reaction">
-              <div class="status">
-                <img src="icon-reaction.svg" alt="reaction icon" />
-                <span>Reaction</span>
-              </div>
-              <div class="percentage">
-                <p><span>80</span>/100</p>
-              </div>
-            </div>
-
-            <div class="item memory">
-              <div class="status">
-                <img src="icon-memory.svg" alt="memory icon" />
-                <span>Memory</span>
-              </div>
-              <div class="percentage">
-                <p><span>92</span>/100</p>
-              </div>
-            </div>
-            <div class="item verbal">
-              <div class="status">
-                <img src="icon-verbal.svg" alt="verbal icon" />
-                <span>Verbal</span>
-              </div>
-              <div class="percentage">
-                <p><span>61</span>/100</p>
-              </div>
-            </div>
-            <div class="item visual">
-              <div class="status">
-                <img src="icon-visual.svg" alt="visual icon" />
-                <span>Visual</span>
-              </div>
-              <div class="percentage">
-                <p><span>72</span>/100</p>
-              </div>
-            </div>
-            <div class="btn">
-              <a href="#">Continue</a>
-            </div>
-          </div>
-
-          <div class="last-cont"></div>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://github.com/notgithubcat">Mel Jun Halichic</a>.
         </div>
       </div>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://github.com/notgithubcat"  target="_blank">Mel Jun Halichic</a>.
-      </div>
-    </div>
+    </main>
   </body>
 </html>
